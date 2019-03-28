@@ -6,6 +6,7 @@
   <hr>
   <div class="row">
     <div class="col-xs-12">
+      <button class="btn btn-primary" (click)="onNameChange">Change first Element</button>
      <app-server-element 
       *ngFor="let serverElement of serverElements" 
       [element]="serverElement"></app-server-element>
